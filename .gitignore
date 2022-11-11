@@ -1,5 +1,5 @@
 ./CommunityWebAPI/bin/
-./CommunityWebAPI/obj/
+CommunityWebAPI/CommunityWebAPI/obj/
 CommunityWebAPI/packages/
 CommunityWebAPI/riderModule.iml
 CommunityWebAPI/_ReSharper.Caches/
@@ -38,3 +38,4 @@ CommunityWebAPI/_ReSharper.Caches/
 *.app
 
 FrontEnd_DesktopApp/BUILD/
+FrontEnd_DesktopApp/cmake-build-debug/
