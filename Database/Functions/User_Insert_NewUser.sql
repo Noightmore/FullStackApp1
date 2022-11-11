@@ -4,7 +4,7 @@ CREATE FUNCTION User_Insert_NewUser(_nickname varchar(60), _email varchar(30), _
 RETURNS void AS
 $$
 BEGIN
-    INSERT INTO users (nickname, email, "password") VALUES (_nickname, _email, _password);
+    INSERT INTO users (nickname, email, "password") VALUES (_nickname, _email, crypt(_password, gen_salt('bf')));
 END
 $$
 LANGUAGE plpgsql;
