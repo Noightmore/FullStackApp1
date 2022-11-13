@@ -1,4 +1,4 @@
-./CommunityWebAPI/bin/
+CommunityWebAPI/bin/
 CommunityWebAPI/CommunityWebAPI/obj/
 CommunityWebAPI/packages/
 CommunityWebAPI/riderModule.iml
